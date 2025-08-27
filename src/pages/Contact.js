@@ -18,15 +18,23 @@ function Contact() {
   <h2 style={{textAlign: 'center'}}>Contact Me</h2>
       <div style={{
         textAlign: 'center',
-        fontWeight: 'bold',
-        fontSize: '1.5rem',
-        letterSpacing: '1px',
-        color: '#2a3d66',
-        background: 'linear-gradient(90deg, #e0eafc 0%, #cfdef3 100%)',
-        borderRadius: '8px',
-        padding: '0.75rem 0',
-        marginBottom: '1.5rem',
-        boxShadow: '0 2px 8px rgba(42,61,102,0.08)'
+        fontWeight: '900',
+        fontSize: '2.4rem',
+        letterSpacing: '2px',
+        color: '#143a5c',
+        background: 'linear-gradient(90deg, rgba(182,234,255,0.85) 0%, rgba(224,234,252,0.85) 100%)',
+        borderRadius: '24px',
+        padding: '2rem 0',
+        margin: '2.5rem auto 2rem auto',
+        boxShadow: '0 8px 32px rgba(20,58,92,0.12)',
+        border: '2.5px solid #1a73e8',
+        textShadow: '2px 4px 12px #b6eaff',
+        maxWidth: '90vw',
+        backdropFilter: 'blur(6px)',
+        WebkitBackdropFilter: 'blur(6px)',
+        transition: 'all 0.3s cubic-bezier(.25,.8,.25,1)',
+        fontFamily: 'Montserrat, Arial, sans-serif',
+        letterSpacing: '2.5px'
       }}>GeRosMedia Projects, CornBrooks Studios</div>
       <div className="contact-info" style={{
         display: 'flex',

@@ -9,6 +9,14 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import './App.css';
+import WeatherApp from './pages/WeatherApp';
+import TaskManager from './pages/TaskManager';
+import PortfolioWebsite from './pages/PortfolioWebsite';
+import BlogPlatform from './pages/BlogPlatform';
+import EcommerceStore from './pages/EcommerceStore';
+import ChatApp from './pages/ChatApp';
+import RecipeFinder from './pages/RecipeFinder';
+import QuizApp from './pages/QuizApp';
 
 
 function AnimatedRoutes() {
@@ -36,6 +44,14 @@ function AnimatedRoutes() {
             <Contact />
           </motion.div>
         } />
+        <Route path="/projects/weather-app" element={<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}><WeatherApp /></motion.div>} />
+        <Route path="/projects/task-manager" element={<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}><TaskManager /></motion.div>} />
+        <Route path="/projects/portfolio-website" element={<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}><PortfolioWebsite /></motion.div>} />
+        <Route path="/projects/blog-platform" element={<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}><BlogPlatform /></motion.div>} />
+        <Route path="/projects/ecommerce-store" element={<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}><EcommerceStore /></motion.div>} />
+        <Route path="/projects/chat-app" element={<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}><ChatApp /></motion.div>} />
+        <Route path="/projects/recipe-finder" element={<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}><RecipeFinder /></motion.div>} />
+        <Route path="/projects/quiz-app" element={<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}><QuizApp /></motion.div>} />
       </Routes>
     </AnimatePresence>
   );

@@ -5,43 +5,43 @@ const projects = [
   {
     title: 'Weather App',
     description: 'A React app that fetches weather data from an API.',
-    link: '#',
+    link: '/projects/weather-app',
   },
   {
     title: 'Task Manager',
     description: 'A full stack CRUD app using React and Node.js.',
-    link: '#',
+    link: '/projects/task-manager',
   },
   {
     title: 'Portfolio Website',
     description: 'Personal portfolio built with React.',
-    link: '#',
+    link: '/projects/portfolio-website',
   },
   {
     title: 'Blog Platform',
     description: 'A blog platform with authentication and REST API.',
-    link: '#',
+    link: '/projects/blog-platform',
   },
   {
     title: 'E-commerce Store',
     description: 'Online store built with React and Express.',
-    link: '#',
+    link: '/projects/ecommerce-store',
   },
   {
     title: 'Chat App',
     description: 'Real-time chat app using Node.js and Socket.io.',
-    link: '#',
+    link: '/projects/chat-app',
   },
   {
     title: 'Recipe Finder',
     description: 'Search recipes using a public API.',
-    link: '#',
+    link: '/projects/recipe-finder',
   },
   {
     title: 'Quiz App',
     description: 'Interactive quiz app built with React.',
-    link: '#',
-  },
+    link: '/projects/quiz-app'
+  }
 ];
 
 function Projects() {

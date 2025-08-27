@@ -23,7 +23,22 @@ function Skills() {
   }
   return (
     <main>
-  <h2>Skills, Technologies & Badges</h2>
+      <h2>Skills, Technologies & Badges</h2>
+      <p style={{maxWidth: '700px', margin: '0 auto 2rem auto', textAlign: 'center', fontSize: '1.15rem', color: '#222'}}>
+        I specialise in developing modern, high-performance web applications utilising a broad range of technologies. Below are my core technical skills, tools, and achievement badges. I also value strong soft skills, which enable me to deliver successful projects and work collaboratively.
+      </p>
+      <div style={{maxWidth: '700px', margin: '0 auto 2rem auto', textAlign: 'center'}}>
+        <h3 style={{marginBottom: '0.5rem', color: '#61dafb'}}>Soft Skills</h3>
+        <ul style={{listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.5rem', fontSize: '1.08rem', color: '#222'}}>
+          <li>Teamwork</li>
+          <li>Communication</li>
+          <li>Problem Solving</li>
+          <li>Adaptability</li>
+          <li>Creativity</li>
+          <li>Attention to Detail</li>
+          <li>Time Management</li>
+        </ul>
+      </div>
       <div className="badges-row">
         <img src="/JavaScript_Coder (1).png" alt="JS Coder Badge" className="badge-img" />
         <img src="/Responsive_Design_Champion.png" alt="Responsive Design Champion Badge" className="badge-img" />

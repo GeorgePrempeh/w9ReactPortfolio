@@ -7,8 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="navbar-icon" />
-        George Prempeh
+  <img src="/logo.jpg" alt="George Prempeh Logo" className="navbar-icon navbar-logo-circle" />
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>

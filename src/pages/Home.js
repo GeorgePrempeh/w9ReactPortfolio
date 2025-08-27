@@ -5,12 +5,14 @@ function Home() {
   return (
     <main className="hero">
       <div className="hero-content">
-        <img src="https://avatars.githubusercontent.com/u/991492?s=200" alt="George Prempeh" className="avatar" />
+  <img src="/logo.jpg" alt="GeRosMedia Logo" className="avatar" />
         <h1>George Prempeh</h1>
         <h2>Digital Product Designer &amp; Full Stack Web Developer</h2>
         <div className="hero-icons">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" className="hero-icon" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adobephotoshop/adobephotoshop-original.svg" alt="Photoshop" className="hero-icon" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop" className="hero-icon" />
+          <img src="/Adobe_Express.png" alt="Adobe Express" className="hero-icon" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" className="hero-icon" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="hero-icon" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="hero-icon" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" className="hero-icon" />
