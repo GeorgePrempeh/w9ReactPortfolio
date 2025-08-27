@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div>
-        &copy; {new Date().getFullYear()} George Prempeh &mdash; Step8up Academy UK BootCamp Portfolio
+  &copy; {new Date().getFullYear()} GeRosMedia Projects
       </div>
       <div className="footer-social">
   {/* Step8uP.png icon removed as requested */}
