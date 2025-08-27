@@ -23,7 +23,7 @@ function Skills() {
   }
   return (
     <main>
-      <h2>Skills & Technologies</h2>
+  <h2>Skills, Technologies & Badges</h2>
       <div className="badges-row">
         <img src="/JavaScript_Coder (1).png" alt="JS Coder Badge" className="badge-img" />
         <img src="/Responsive_Design_Champion.png" alt="Responsive Design Champion Badge" className="badge-img" />
