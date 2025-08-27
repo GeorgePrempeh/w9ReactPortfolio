@@ -1,3 +1,45 @@
+.hero-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 1.2rem 0 1.5rem 0;
+}
+.hero-icon {
+  width: 36px;
+  height: 36px;
+  filter: drop-shadow(0 2px 6px rgba(97,218,251,0.12));
+  transition: transform 0.18s;
+}
+.hero-icon:hover {
+  transform: scale(1.18);
+}
+.skill-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 0.7rem;
+  vertical-align: middle;
+  filter: drop-shadow(0 2px 6px rgba(97,218,251,0.12));
+}
+/* Skills Table */
+.skills-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0.7rem 1rem;
+  margin-top: 1.5rem;
+}
+.skill-cell {
+  background: linear-gradient(90deg, #61dafb 60%, #222 100%);
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  letter-spacing: 0.5px;
+  text-align: center;
+  min-width: 120px;
+  border: none;
+}
 /* Contact Card & Form */
 .contact-card {
   background: #fff;
