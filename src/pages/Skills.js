@@ -15,6 +15,7 @@ const skills = [
 ];
 
 function Skills() {
+// Skills page displays skills table with icons and badges
   // Split skills into rows of 4 for table display
   const rows = [];
   for (let i = 0; i < skills.length; i += 4) {

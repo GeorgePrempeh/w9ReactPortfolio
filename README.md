@@ -1,5 +1,34 @@
 # React Portfolio
 
+## Setup Instructions
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/GeorgePrempeh/w9ReactPortfolio.git
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm start
+   ```
+
+## Features
+
+- Responsive design
+- Social media and academy branding in footer
+- Skills table with icons and achievement badges
+- Professional UI/UX
+- Easy navigation
+
+## Credits
+
+- Social media icons: [Devicon](https://devicon.dev/), local assets
+- Academy logo: Provided by user
+- Other images/icons: See `public/` folder
+
 A simple, clean, and fully functional React portfolio showcasing 8 projects and skills acquired during a 12-week Full Stack Web Development BootCamp at Step8up Academy UK.
 
 ## Features

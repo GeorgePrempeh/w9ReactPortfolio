@@ -2,6 +2,7 @@ import React from 'react';
 import './ProjectCard.css';
 
 function ProjectCard({ title, description, link }) {
+// ProjectCard component displays individual project details
   return (
     <div className="project-card">
       <h3>{title}</h3>
