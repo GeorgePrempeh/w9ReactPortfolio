@@ -1,18 +1,42 @@
 import React from 'react';
 
 const skills = [
-  'HTML5', 'CSS3', 'Bootstrap', 'JavaScript (ES6+)', 'Python', 'Node.js', 'Express.js', 'SQL', 'Sequelize ORM', 'React', 'Git'
+  { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+  { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+  { name: 'Bootstrap', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg' },
+  { name: 'JavaScript (ES6+)', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+  { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
+  { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+  { name: 'Express.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
+  { name: 'SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+  { name: 'Sequelize ORM', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg' },
+  { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+  { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' }
 ];
 
 function Skills() {
+  // Split skills into rows of 4 for table display
+  const rows = [];
+  for (let i = 0; i < skills.length; i += 4) {
+    rows.push(skills.slice(i, i + 4));
+  }
   return (
     <main>
       <h2>Skills & Technologies</h2>
-      <div className="skills-badges">
-        {skills.map(skill => (
-          <span className="skill-badge" key={skill}>{skill}</span>
-        ))}
-      </div>
+      <table className="skills-table">
+        <tbody>
+          {rows.map((row, idx) => (
+            <tr key={idx}>
+              {row.map(skill => (
+                <td key={skill.name} className="skill-cell">
+                  <img src={skill.icon} alt={skill.name} className="skill-icon" />
+                  <span>{skill.name}</span>
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </main>
   );
 }
