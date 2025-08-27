@@ -23,6 +23,11 @@ function Skills() {
   return (
     <main>
       <h2>Skills & Technologies</h2>
+      <div className="badges-row">
+        <img src="/JavaScript_Coder (1).png" alt="JS Coder Badge" className="badge-img" />
+        <img src="/Responsive_Design_Champion.png" alt="Responsive Design Champion Badge" className="badge-img" />
+        <img src="/HTMLCSS_Explorer.png" alt="HTML/CSS Explorer Badge" className="badge-img" />
+      </div>
       <table className="skills-table">
         <tbody>
           {rows.map((row, idx) => (

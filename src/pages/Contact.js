@@ -16,6 +16,11 @@ function Contact() {
   return (
     <main>
       <h2 style={{textAlign: 'center'}}>Contact Me</h2>
+      <div className="contact-info">
+  <div><strong>Email:</strong> <a href="mailto:info@gerosmediapro.com">info@gerosmediapro.com</a></div>
+        <div><strong>Phone:</strong> <a href="tel:+447123456789">+44 7123 456789</a></div>
+        <div><strong>Location:</strong> London, UK</div>
+      </div>
       <div className="contact-card">
         {submitted ? (
           <p style={{textAlign: 'center'}}>Thank you for your message!</p>

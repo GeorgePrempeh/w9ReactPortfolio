@@ -12,16 +12,16 @@ function Footer() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook" className="footer-icon" />
         </a>
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <img src="/instagram.png" alt="Instagram" className="footer-icon" />
+          <img src="/Instagram_logo_2016.svg" alt="Instagram" className="footer-icon" />
         </a>
         <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tiktok/tiktok-original.svg" alt="TikTok" className="footer-icon" />
+          <img src="/tiktok-logo-logo-svgrepo-com.svg" alt="TikTok" className="footer-icon" />
         </a>
         <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/youtube/youtube-original.svg" alt="YouTube" className="footer-icon" />
+          <img src="/3610206.png" alt="YouTube" className="footer-icon" />
         </a>
         <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-original.svg" alt="WhatsApp" className="footer-icon" />
+          <img src="/OIP.webp" alt="WhatsApp" className="footer-icon" />
         </a>
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" className="footer-icon" />
