@@ -47,8 +47,8 @@ const projects = [
 function Projects() {
   return (
     <main>
-      <h2>My Projects</h2>
-      <div style={{display: 'flex', flexWrap: 'wrap', gap: '2rem'}}>
+      <h2 style={{textAlign: 'center', marginBottom: '2rem'}}>My Projects</h2>
+      <div className="projects-grid">
         {projects.map((project, idx) => (
           <ProjectCard key={idx} {...project} />
         ))}

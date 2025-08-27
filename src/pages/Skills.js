@@ -8,9 +8,11 @@ function Skills() {
   return (
     <main>
       <h2>Skills & Technologies</h2>
-      <ul>
-        {skills.map(skill => <li key={skill}>{skill}</li>)}
-      </ul>
+      <div className="skills-badges">
+        {skills.map(skill => (
+          <span className="skill-badge" key={skill}>{skill}</span>
+        ))}
+      </div>
     </main>
   );
 }

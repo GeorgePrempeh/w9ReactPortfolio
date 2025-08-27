@@ -15,17 +15,19 @@ function Contact() {
 
   return (
     <main>
-      <h2>Contact Me</h2>
-      {submitted ? (
-        <p>Thank you for your message!</p>
-      ) : (
-        <form onSubmit={handleSubmit} style={{maxWidth: 400}}>
-          <input name="name" placeholder="Name" value={form.name} onChange={handleChange} required style={{width: '100%', marginBottom: '1rem'}} />
-          <input name="email" type="email" placeholder="Email" value={form.email} onChange={handleChange} required style={{width: '100%', marginBottom: '1rem'}} />
-          <textarea name="message" placeholder="Message" value={form.message} onChange={handleChange} required style={{width: '100%', marginBottom: '1rem'}} />
-          <button type="submit">Send</button>
-        </form>
-      )}
+      <h2 style={{textAlign: 'center'}}>Contact Me</h2>
+      <div className="contact-card">
+        {submitted ? (
+          <p style={{textAlign: 'center'}}>Thank you for your message!</p>
+        ) : (
+          <form onSubmit={handleSubmit} className="contact-form">
+            <input name="name" placeholder="Name" value={form.name} onChange={handleChange} required />
+            <input name="email" type="email" placeholder="Email" value={form.email} onChange={handleChange} required />
+            <textarea name="message" placeholder="Message" value={form.message} onChange={handleChange} required />
+            <button type="submit">Send</button>
+          </form>
+        )}
+      </div>
     </main>
   );
 }

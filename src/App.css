@@ -1,10 +1,129 @@
+/* Contact Card & Form */
+.contact-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  max-width: 420px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #61dafb;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+.contact-form textarea {
+  min-height: 80px;
+}
+.contact-form button {
+  background: #61dafb;
+  color: #222;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+}
+.contact-form button:hover {
+  background: #222;
+  color: #fff;
+}
+/* Skills Badges */
+.skills-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.5rem;
+}
+.skill-badge {
+  background: linear-gradient(90deg, #61dafb 60%, #222 100%);
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  letter-spacing: 0.5px;
+  transition: background 0.2s, color 0.2s;
+}
+.skill-badge:hover {
+  background: #222;
+  color: #61dafb;
+}
+
+main.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: linear-gradient(120deg, #61dafb 0%, #222 100%);
+}
+
+.hero-content {
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  padding: 2.5rem 2rem;
+  text-align: center;
+  max-width: 420px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.hero h1 {
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 2.2rem;
+  color: #222;
+}
+.hero h2 {
+  margin: 0 0 1.2rem 0;
+  font-size: 1.2rem;
+  color: #61dafb;
+  font-weight: 500;
+}
+.hero-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 2rem;
+  background: #61dafb;
+  color: #222;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+}
+.hero-btn:hover {
+  background: #222;
+  color: #fff;
+}
+
 main {
   padding: 2rem;
   min-height: 80vh;
 }
 
 @media (max-width: 600px) {
-  main {
+  main.hero {
     padding: 1rem;
+  }
+  .hero-content {
+    padding: 1.2rem 0.5rem;
   }
 }
