@@ -72,11 +72,11 @@ A simple, clean, and fully functional React portfolio showcasing 8 projects and 
 
 ## Live Link
 
-[Deployed on Render](https://your-render-link)
+xxxxxxxx
 
 ## GitHub Repo
 
-[https://github.com/GeorgePrempeh/w9ReactPortfolio](https://github.com/GeorgePrempeh/w9ReactPortfolio)
+xxxxxxxxxxxxxx
 
 ## BootCamp Training
 
