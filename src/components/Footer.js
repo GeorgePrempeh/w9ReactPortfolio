@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div>
-  &copy; {new Date().getFullYear()} GeRosMedia Projects
+        &copy; {new Date().getFullYear()} GeRosMedia Projects, CornBrook Studios
       </div>
       <div className="footer-social">
   {/* Step8uP.png icon removed as requested */}

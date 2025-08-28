@@ -175,6 +175,25 @@ main.hero {
   margin-top: 1.5rem;
   padding: 0.7rem 2rem;
   background: #61dafb;
+.hero-banner {
+  text-align: center !important;
+  font-weight: 900 !important;
+  font-size: 2.8rem !important;
+  letter-spacing: 2.5px !important;
+  color: #fff !important;
+  background: linear-gradient(120deg, #54b4cc 0%, #4a97a0 100%) !important;
+  border-radius: 40px !important;
+  padding: 3rem 0 !important;
+  margin: 2.5rem auto 2rem auto !important;
+  box-shadow: 0 8px 32px rgba(20,58,92,0.22), 0 0 32px #54b4cc66 !important;
+  border: 3px solid #fff !important;
+  text-shadow: 0 0 16px #1a73e8, 0 0 32px #54b4cc !important;
+  max-width: 90vw !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+  font-family: Montserrat, Arial, sans-serif !important;
+}
   color: #222;
   border-radius: 8px;
   font-weight: bold;

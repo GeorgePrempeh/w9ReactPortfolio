@@ -14,19 +14,25 @@ const skills = [
   { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' }
 ];
 
+
 function Skills() {
-// Skills page displays skills table with icons and badges
+  // Skills page displays skills table with icons and badges
+
   // Split skills into rows of 4 for table display
+  // This helps render the table in a grid-like format
   const rows = [];
   for (let i = 0; i < skills.length; i += 4) {
     rows.push(skills.slice(i, i + 4));
   }
+
   return (
     <main>
       <h2>Skills, Technologies & Badges</h2>
+      {/* Description paragraph for skills */}
       <p style={{maxWidth: '700px', margin: '0 auto 2rem auto', textAlign: 'center', fontSize: '1.15rem', color: '#222'}}>
         I specialise in developing modern, high-performance web applications utilising a broad range of technologies. Below are my core technical skills, tools, and achievement badges. I also value strong soft skills, which enable me to deliver successful projects and work collaboratively.
       </p>
+      {/* Soft skills section */}
       <div style={{maxWidth: '700px', margin: '0 auto 2rem auto', textAlign: 'center'}}>
         <h3 style={{marginBottom: '0.5rem', color: '#61dafb'}}>Soft Skills</h3>
         <ul style={{listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1.5rem', fontSize: '1.08rem', color: '#222'}}>
@@ -39,11 +45,13 @@ function Skills() {
           <li>Time Management</li>
         </ul>
       </div>
+      {/* Achievement badges row */}
       <div className="badges-row">
         <img src="/JavaScript_Coder (1).png" alt="JS Coder Badge" className="badge-img" />
         <img src="/Responsive_Design_Champion.png" alt="Responsive Design Champion Badge" className="badge-img" />
         <img src="/HTMLCSS_Explorer.png" alt="HTML/CSS Explorer Badge" className="badge-img" />
       </div>
+      {/* Skills table with icons */}
       <table className="skills-table">
         <tbody>
           {rows.map((row, idx) => (
