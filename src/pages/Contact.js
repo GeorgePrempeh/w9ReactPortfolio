@@ -22,7 +22,7 @@ function Contact() {
         fontSize: '2.4rem',
         letterSpacing: '2px',
         color: '#fff',
-  background: 'linear-gradient(120deg, #3a6a75 0%, #2c3e43 100%)',
+  background: 'linear-gradient(120deg, #54b4cc 0%, #4a97a0 100%)',
         borderRadius: '32px',
         padding: '2.5rem 0',
         margin: '2.5rem auto 2rem auto',
